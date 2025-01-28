@@ -1,0 +1,13 @@
+{
+  "include": ["src"],
+  "compilerOptions": {
+    "skipLibCheck": true,
+    // "target": "ES5"
+    "target": "ESNext",
+    // "module": "CommonJS"
+    "module": "ESNext",
+    "outDir": "dist",
+    "strict": true,
+    "moduleDetection": "force"
+  }
+}
